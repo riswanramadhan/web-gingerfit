@@ -24,17 +24,19 @@ export default function AboutSection() {
   return (
     <section id="tentang" className="section-padding bg-gingerfit-cream">
       <div className="section-container grid items-center gap-12 lg:grid-cols-[0.95fr_1.05fr]">
-        <div className="relative" data-aos="fade-up">
-          <div className="relative mx-auto aspect-[4/5] max-w-[500px] overflow-hidden rounded-[24px] bg-white shadow-soft">
+        <div className="relative">
+          <div className="mx-auto w-full max-w-[500px] overflow-hidden rounded-[24px] bg-white shadow-soft">
             <Image
               src={siteConfig.images.owner}
               alt="Owner Gingerfit+"
-              fill
+              width={1200}
+              height={1422}
               sizes="(min-width: 1024px) 500px, 92vw"
-              className="object-cover"
+              className="block h-auto w-full object-cover"
+              priority={false}
             />
           </div>
-          <div className="absolute bottom-5 left-5 right-5 rounded-[24px] bg-white/95 p-4 shadow-soft backdrop-blur-md sm:left-auto sm:w-72">
+          <div className="mx-auto mt-4 w-full max-w-[500px] rounded-[20px] bg-white p-4 shadow-soft sm:absolute sm:bottom-5 sm:left-auto sm:right-5 sm:mt-0 sm:w-72 sm:bg-white/95 sm:backdrop-blur-md">
             <p className="text-xs font-extrabold uppercase text-gingerfit-green">Dikembangkan oleh apoteker</p>
             <p className="mt-1 text-sm font-semibold leading-6 text-black/70">
               Formulasi seimbang antara manfaat kesehatan dan kenyamanan konsumsi harian.
