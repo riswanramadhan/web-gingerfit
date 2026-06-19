@@ -14,7 +14,8 @@ export default function LocationSection() {
             </span>
             <h2 className="section-title">Lokasi Gingerfit+</h2>
             <p className="section-description">
-              Kunjungi atau temukan Gingerfit+ melalui Google Maps. Untuk pemesanan, hubungi admin melalui WhatsApp
+              Gingerfit+ berlokasi di Gowa dan melayani pemesanan untuk area Gowa, Makassar, Sulawesi Selatan, dan sekitarnya.
+              Kunjungi atau temukan kami melalui Google Maps. Untuk pemesanan, hubungi admin melalui WhatsApp
               agar informasi stok dan preorder dapat dikonfirmasi lebih cepat.
             </p>
 

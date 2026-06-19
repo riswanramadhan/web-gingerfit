@@ -33,7 +33,7 @@ export const products: Product[] = [
     bgColor: "#FFF6D8",
     buttonTextColor: "#111111",
     image: "/images/products/product-immunity-aid.png",
-    alt: "Botol Gingerfit+ varian Immunity Aid",
+    alt: "Botol Gingerfit+ varian Immunity Aid gingershot organik jahe di Gowa",
     description:
       "Perpaduan rasa tajam khas jahe organik dengan kelembutan manis dari madu ekstra. Varian ini memberikan rasa hangat yang nyaman di tenggorokan.",
   },
@@ -48,7 +48,7 @@ export const products: Product[] = [
     bgColor: "#F0FFF5",
     buttonTextColor: "#FFFFFF",
     image: "/images/products/product-immunity-booster.png",
-    alt: "Botol Gingerfit+ varian Immunity Booster",
+    alt: "Botol Gingerfit+ varian Immunity Booster gingershot organik jahe di Gowa",
     description:
       "Kombinasi tradisional antara jahe dan kunyit yang diproses secara modern. Cita rasa rempahnya kuat dan autentik untuk rutinitas harian yang aktif.",
   },
@@ -63,7 +63,7 @@ export const products: Product[] = [
     bgColor: "#EAFBFF",
     buttonTextColor: "#111111",
     image: "/images/products/product-vitamin-a-booster.png",
-    alt: "Botol Gingerfit+ varian Vitamin A Booster",
+    alt: "Botol Gingerfit+ varian Vitamin A Booster gingershot organik jahe di Gowa",
     description:
       "Perpaduan rasa manis alami dari wortel murni dan kehangatan jahe. Segar untuk melengkapi asupan Vitamin A dan Beta-Karoten harian.",
   },
@@ -78,7 +78,7 @@ export const products: Product[] = [
     bgColor: "#FFF0E8",
     buttonTextColor: "#FFFFFF",
     image: "/images/products/product-vitamin-c-booster.png",
-    alt: "Botol Gingerfit+ varian Vitamin C Booster",
+    alt: "Botol Gingerfit+ varian Vitamin C Booster gingershot organik jahe di Gowa",
     description:
       "Kombinasi segar dari perasan lemon dan kehangatan jahe. Cocok dinikmati pagi hari sebagai asupan buah sitrus yang menyegarkan.",
   },
@@ -94,7 +94,7 @@ export const products: Product[] = [
     bgColor: "#E9FFF8",
     buttonTextColor: "#111111",
     image: "/images/products/product-running-booster.png",
-    alt: "Botol Gingerfit+ varian Running Booster",
+    alt: "Botol Gingerfit+ varian Running Booster gingershot organik jahe di Gowa",
     description:
       "Diformulasikan dengan ekstrak nanas alami yang memberi sentuhan manis-asam tropis. Menyegarkan sebelum maupun setelah aktivitas fisik.",
   },
@@ -110,7 +110,7 @@ export const products: Product[] = [
     bgColor: "#F7F7F7",
     buttonTextColor: "#FFFFFF",
     image: "/images/products/product-energy-booster.png",
-    alt: "Botol Gingerfit+ varian Energy Booster",
+    alt: "Botol Gingerfit+ varian Energy Booster gingershot organik jahe di Gowa",
     description:
       "Memadukan karakteristik jahe yang hangat dengan tambahan caffeine shot. Praktis untuk menemani kerja atau belajar saat butuh rasa yang mantap.",
   },

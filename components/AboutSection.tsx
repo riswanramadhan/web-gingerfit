@@ -52,11 +52,11 @@ export default function AboutSection() {
           <h2 className="section-title">Minuman jahe organik yang segar, hangat, dan praktis.</h2>
           <p className="section-description">
             Gingerfit+ adalah minuman kesehatan berbahan dasar jahe pilihan yang diformulasikan untuk membantu
-            menjaga daya tahan tubuh, menghangatkan badan, dan mendukung gaya hidup sehat. Produk ini menawarkan
-            manfaat herbal alami dengan rasa yang praktis dan nyaman dikonsumsi sehari-hari.
+            menjaga daya tahan tubuh, menghangatkan badan, dan mendukung gaya hidup sehat. Hadir di Gowa dan Makassar,
+            produk ini menawarkan manfaat herbal alami dengan rasa yang praktis dan nyaman dikonsumsi sehari-hari.
           </p>
           <p className="mt-5 text-base leading-8 text-black/70">
-            Dikembangkan langsung oleh seorang apoteker, Gingerfit+ mengutamakan formulasi yang seimbang antara
+            Dikembangkan langsung oleh seorang apoteker lokal di Sulawesi Selatan, Gingerfit+ mengutamakan formulasi yang seimbang antara
             manfaat kesehatan dan kenyamanan konsumsi. Perpaduan jahe pilihan dengan bahan alami seperti madu,
             kunyit, lemon, wortel, nanas, dan caffeine shot membuat setiap varian memiliki karakter rasa yang berbeda.
           </p>

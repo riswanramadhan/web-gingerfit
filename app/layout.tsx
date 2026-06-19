@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     email: false,
   },
   alternates: {
-    canonical: "/",
+    canonical: siteConfig.domain,
   },
   icons: {
     icon: "/icon.png",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: siteConfig.title,
     description: siteConfig.ogDescription,
-    url: "/",
+    url: siteConfig.domain,
     siteName: siteConfig.name,
     type: "website",
     locale: "id_ID",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
         url: siteConfig.images.og,
         width: 1200,
         height: 630,
-        alt: "Gingerfit+ gingershot organik jahe",
+        alt: "Gingerfit+ gingershot organik jahe Gowa Makassar",
       },
     ],
   },

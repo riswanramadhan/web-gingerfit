@@ -8,7 +8,7 @@ export function createStructuredData() {
     "@id": `${siteConfig.domain}/#localbusiness`,
     name: siteConfig.name,
     description:
-      "Gingerfit+ adalah minuman kesehatan berbahan dasar jahe pilihan yang diformulasikan untuk mendukung gaya hidup sehat.",
+      "Gingerfit+ menyediakan gingershot organik berbahan dasar jahe pilihan di Gowa dan Makassar, Sulawesi Selatan. Diformulasikan oleh apoteker untuk mendukung rutinitas sehat harian dengan berbagai varian fresh booster.",
     url: siteConfig.domain,
     image: `${siteConfig.domain}${siteConfig.images.og}`,
     telephone: `+${siteConfig.whatsappNumber}`,
@@ -19,7 +19,27 @@ export function createStructuredData() {
       addressRegion: "Sulawesi Selatan",
       addressCountry: "ID",
     },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: "-5.1857",
+      longitude: "119.4991",
+    },
+    areaServed: [
+      {
+        "@type": "City",
+        name: "Gowa",
+      },
+      {
+        "@type": "City",
+        name: "Makassar",
+      },
+      {
+        "@type": "State",
+        name: "Sulawesi Selatan",
+      },
+    ],
     openingHours: "Mo-Su 08:00-20:00",
+    priceRange: "Rp10.000 - Rp95.000",
     sameAs: [siteConfig.socials.instagram, siteConfig.socials.tiktok],
   };
 
@@ -35,7 +55,7 @@ export function createStructuredData() {
     },
     offers: {
       "@type": "Offer",
-      price: "10000",
+      price: product.price.toString(),
       priceCurrency: "IDR",
       availability: "https://schema.org/InStock",
       url: siteConfig.domain,
@@ -55,8 +75,36 @@ export function createStructuredData() {
     })),
   };
 
+  const breadcrumbList = {
+    "@type": "BreadcrumbList",
+    "@id": `${siteConfig.domain}/#breadcrumb`,
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "DekatLokal",
+        item: "https://dekatlokal.com/",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Gingerfit+ - Gingershot Organik Jahe Gowa Makassar",
+        item: siteConfig.domain,
+      },
+    ],
+  };
+
+  const organization = {
+    "@type": "Organization",
+    "@id": `${siteConfig.domain}/#organization`,
+    name: siteConfig.name,
+    url: siteConfig.domain,
+    logo: `${siteConfig.domain}${siteConfig.images.logo}`,
+    sameAs: [siteConfig.socials.instagram, siteConfig.socials.tiktok],
+  };
+
   return {
     "@context": "https://schema.org",
-    "@graph": [localBusiness, ...productGraph, faqPage],
+    "@graph": [localBusiness, organization, ...productGraph, faqPage, breadcrumbList],
   };
 }

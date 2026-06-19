@@ -12,7 +12,12 @@ export const faqItems: FAQItem[] = [
   {
     question: "Berapa harga produk Gingerfit+?",
     answer:
-      "Semua varian ukuran 80 mL dibanderol Rp10.000. Tersedia juga ukuran 300 mL seharga Rp30.000, 600 mL seharga Rp60.000, dan 1 Liter seharga Rp100.000.",
+      "Semua varian ukuran 80 mL dibanderol Rp10.000. Tersedia juga ukuran 250 mL seharga Rp30.000, 500 mL seharga Rp60.000, dan 1 Liter seharga Rp95.000.",
+  },
+  {
+    question: "Di mana lokasi Gingerfit+?",
+    answer:
+      "Gingerfit+ berlokasi di Jl. Dirgantara 4 Blok E, Mangalli, Kec. Palangga, Kab. Gowa, Sulawesi Selatan. Kami melayani pemesanan untuk area Gowa, Makassar, dan sekitarnya. Hubungi admin via WhatsApp untuk konfirmasi pengiriman.",
   },
   {
     question: "Apakah produk ready stock?",
@@ -41,5 +46,10 @@ export const faqItems: FAQItem[] = [
     question: "Apakah Gingerfit+ membuka kerja sama reseller atau mitra?",
     answer:
       "Gingerfit+ terbuka untuk peluang kolaborasi, reseller, event olahraga, gym, padel, wedding organizer, dan kebutuhan acara lainnya. Silakan hubungi admin melalui WhatsApp untuk diskusi lebih lanjut.",
+  },
+  {
+    question: "Apakah ada hal yang perlu diperhatikan sebelum mengonsumsi Gingerfit+?",
+    answer:
+      "Gingerfit+ adalah produk minuman herbal berbahan alami yang membantu menjaga daya tahan tubuh dan mendukung gaya hidup sehat. Produk ini bukan pengganti diagnosis, konsultasi, atau pengobatan medis. Jika memiliki kondisi kesehatan tertentu, alergi jahe, atau sedang mengonsumsi obat tertentu, konsultasikan dengan tenaga kesehatan sebelum mengonsumsi produk herbal.",
   },
 ];
