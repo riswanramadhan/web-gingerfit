@@ -17,10 +17,10 @@ export default function HeroSection() {
             Fresh Booster
           </span>
           <h1 className="text-5xl font-black leading-[1.02] text-gingerfit-black sm:text-6xl lg:text-7xl">
-            Gingerfit+ | Gingershot Organik Jahe di Gowa dan Makassar
+            Your Daily Booster, Fresh in Every Shot.
           </h1>
           <p className="mt-4 text-2xl font-bold leading-tight text-gingerfit-green sm:text-3xl">
-            Your Daily Booster, Fresh in Every Shot.
+            Keajaiban jahe dalam setiap tetesnya, untuk kesehatan dan energi yang optimal.
           </p>
           <p className="mt-6 max-w-2xl text-base font-medium leading-8 text-black/70 sm:text-lg">
             Gingerfit+ adalah gingershot organik berbahan dasar jahe pilihan untuk menemani rutinitas sehat harian di Gowa, Makassar, dan Sulawesi Selatan dengan rasa yang segar, hangat, dan praktis.
