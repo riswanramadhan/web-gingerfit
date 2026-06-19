@@ -14,8 +14,8 @@ export type DocumentationImage = {
 
 export const testimonials: Testimonial[] = [
   {
-    name: "Gubernur Sulawesi Selatan",
-    origin: "Sulawesi Selatan",
+    name: "Andi Sudirman Sulaiman",
+    origin: "Gubernur Sulawesi Selatan",
     quote:
       "Inovasi produk herbal lokal seperti Gingerfit+ menunjukkan potensi besar dalam mengembangkan UMKM berbasis kesehatan serta meningkatkan nilai tambah komoditas lokal.",
   },

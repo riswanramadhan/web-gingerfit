@@ -20,13 +20,13 @@ export default function TestimonialSection() {
           {testimonials.map((testimonial, index) => (
             <article
               key={testimonial.name}
-              className="rounded-[28px] border border-gingerfit-gray/80 bg-gingerfit-cream p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-soft"
+              className="flex h-full flex-col rounded-[28px] border border-gingerfit-gray/80 bg-gingerfit-cream p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-soft"
               data-aos="fade-up"
             >
               <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-white text-gingerfit-green shadow-sm">
                 <Quote size={24} aria-hidden="true" />
               </div>
-              <p className="text-sm leading-7 text-black/70">{testimonial.quote}</p>
+              <p className="flex-1 text-sm leading-7 text-black/70">{testimonial.quote}</p>
               <div className="mt-6 border-t border-black/10 pt-5">
                 <h3 className="text-base font-black text-gingerfit-black">{testimonial.name}</h3>
                 <p className="mt-1 text-sm font-semibold text-black/60">

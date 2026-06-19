@@ -16,9 +16,9 @@ export type Product = {
 };
 
 export const otherProductSizes = [
-  "300 mL: Rp30.000",
-  "600 mL: Rp60.000",
-  "1 Liter: Rp100.000",
+  "250 mL: Rp30.000",
+  "500 mL: Rp60.000",
+  "1 Liter: Rp95.000",
 ];
 
 export const products: Product[] = [
