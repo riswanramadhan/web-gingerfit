@@ -7,11 +7,11 @@ import { siteConfig } from "@/data/site";
 const slides = [
   {
     src: siteConfig.images.hero.gallery4,
-    alt: "Foto campaign Gingerfit+ gallery 4",
+    alt: siteConfig.heroImageAlt,
   },
   {
     src: siteConfig.images.hero.gallery5,
-    alt: "Foto campaign Gingerfit+ gallery 5",
+    alt: "Produk Gingerfit+ gingershot organik dengan rasa segar dan hangat",
   },
 ];
 
@@ -40,6 +40,7 @@ export default function HeroGallerySlider() {
             alt={slide.alt}
             fill
             priority={index === 0}
+            fetchPriority={index === 0 ? "high" : undefined}
             quality={82}
             sizes="(min-width: 1024px) 560px, 94vw"
             className={`object-cover transition duration-1000 ease-out ${

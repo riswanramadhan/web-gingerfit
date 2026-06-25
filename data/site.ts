@@ -1,15 +1,17 @@
 export const siteConfig = {
   name: "Gingerfit+",
   domain: "https://gingerfitplus.dekatlokal.com",
-  title: "Gingerfit+ | Gingershot Organik Jahe Gowa Makassar - DekatLokal",
+  url: "https://gingerfitplus.dekatlokal.com/",
+  title: "Gingerfit+ | Gingershot Organik Jahe untuk Daily Booster - DekatLokal",
   description:
-    "Gingerfit+ menyediakan gingershot organik jahe di Gowa dan Makassar dengan varian fresh booster praktis. Order via WhatsApp untuk area Gowa, Makassar, dan Sulawesi Selatan.",
+    "Gingerfit+ adalah gingershot organik dari Gowa berbahan jahe pilihan, tersedia varian madu, kunyit, lemon, wortel, nanas, dan caffeine shot.",
   shortDescription:
-    "Gingerfit+ adalah gingershot organik berbahan dasar jahe pilihan untuk mendukung rutinitas sehat harian dengan rasa yang segar, hangat, dan praktis.",
+    "Gingerfit+ adalah gingershot organik berbahan dasar jahe pilihan untuk menemani rutinitas sehat harian dengan rasa yang segar, hangat, dan praktis.",
   ogDescription:
-    "Gingerfit+ menyediakan gingershot organik jahe dengan berbagai varian fresh booster untuk rutinitas sehat harian. Order via WhatsApp untuk area Gowa, Makassar, dan Sulawesi Selatan.",
+    "Gingershot organik Gingerfit+ berbahan jahe pilihan dengan varian madu, kunyit, lemon, wortel, nanas, dan caffeine shot.",
   twitterDescription:
-    "Gingershot organik jahe di Gowa dan Makassar dengan varian fresh booster praktis. Dikembangkan apoteker, order via WhatsApp.",
+    "Gingershot organik jahe pilihan yang segar, hangat, dan praktis untuk rutinitas harian.",
+  heroImageAlt: "Gingerfit+ gingershot organik jahe pilihan untuk daily booster",
   keywords: [
     "Gingerfit",
     "Gingerfit+",

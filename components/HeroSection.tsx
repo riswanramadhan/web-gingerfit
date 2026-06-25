@@ -26,7 +26,13 @@ export default function HeroSection() {
             Gingerfit+ adalah gingershot organik berbahan dasar jahe pilihan untuk menemani rutinitas sehat harian di Gowa, Makassar, dan Sulawesi Selatan dengan rasa yang segar, hangat, dan praktis.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <a href={createGeneralWhatsAppLink()} target="_blank" rel="noopener noreferrer" className="primary-button">
+            <a
+              href={createGeneralWhatsAppLink()}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Order Gingerfit+ via WhatsApp"
+              className="primary-button"
+            >
               <FaWhatsapp size={20} aria-hidden="true" />
               Order via WhatsApp
             </a>

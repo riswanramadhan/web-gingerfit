@@ -87,6 +87,7 @@ export default function ProductSection() {
                   href={createProductWhatsAppLink(product.name, product.size)}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={`Order ${product.name} Gingerfit+ via WhatsApp`}
                   className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-full px-5 py-3.5 text-sm font-extrabold shadow-sm transition hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-gingerfit-green/20"
                   style={{ backgroundColor: product.color, color: product.buttonTextColor }}
                 >

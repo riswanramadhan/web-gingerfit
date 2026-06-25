@@ -24,18 +24,21 @@ export const metadata: Metadata = {
     address: true,
     email: false,
   },
-  alternates: {
-    canonical: siteConfig.domain,
-  },
+  manifest: "/site.webmanifest",
   icons: {
-    icon: "/icon.png",
-    apple: "/icon.png",
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
   },
   openGraph: {
-    title: siteConfig.title,
+    title: "Gingerfit+ | Gingershot Organik Jahe untuk Daily Booster",
     description: siteConfig.ogDescription,
-    url: siteConfig.domain,
-    siteName: siteConfig.name,
+    siteName: "Gingerfit+ - DekatLokal",
     type: "website",
     locale: "id_ID",
     images: [
@@ -43,15 +46,20 @@ export const metadata: Metadata = {
         url: siteConfig.images.og,
         width: 1200,
         height: 630,
-        alt: "Gingerfit+ gingershot organik jahe Gowa Makassar",
+        alt: siteConfig.heroImageAlt,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: siteConfig.title,
+    title: "Gingerfit+ | Gingershot Organik Jahe",
     description: siteConfig.twitterDescription,
-    images: [siteConfig.images.og],
+    images: [
+      {
+        url: siteConfig.images.og,
+        alt: siteConfig.heroImageAlt,
+      },
+    ],
   },
   robots: {
     index: true,
@@ -84,6 +92,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id" className="scroll-smooth">
+      <head>
+        <link rel="canonical" href={siteConfig.url} />
+        <meta property="og:url" content={siteConfig.url} />
+      </head>
       <body className={`${poppins.className} bg-gingerfit-cream text-gingerfit-black antialiased`}>
         {children}
       </body>
